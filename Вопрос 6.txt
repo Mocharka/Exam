@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head> 
+       <meta charset="UTF-8">
+</head>
+<body>
+<style>
+
+</style>
+<div id = 'gh' style="min-height:500px; width: 50%;  background-color : #99CCFF;">
+
+<form>
+<input type='range' min = '20' max = '200' id = 'range' oninput = 'scale()'>
+<div>
+<img src = 'Квадрат.jpg' id = 'img' width = '110'  >
+</div>
+</form>
+
+
+</div>
+<script>
+let scale = function(){
+ let i = document.getElementById('img');
+ let c = range.value;
+ i.width = c;
+};
+
+
+
+
+
+</script>
+</body>
+</html>
